@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neub.alumni.DepartmentActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the department"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/deptCse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/btn_bg"
+        android:textSize="24sp"
+        android:textColor="#ffff"
+        android:text="CSE">
+
+    </Button>
+
+    <Button
+        android:id="@+id/deptBba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deptCse"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/btn_bg"
+        android:text="BBA"
+        android:textColor="#ffff"
+        android:textSize="24sp">
+
+        </Button>
+
+    <Button
+        android:id="@+id/deptLaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deptBba"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/btn_bg"
+        android:text="LAW"
+        android:textColor="#ffff"
+        android:textSize="24sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/deptEng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deptLaw"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/btn_bg"
+        android:text="ENGLISH"
+        android:textColor="#ffff"
+        android:textSize="24sp">
+
+    </Button>
+
+
+</RelativeLayout>

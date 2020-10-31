@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neub.alumni.StudentFacultyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose one"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="170sp"
+        android:layout_marginStart="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/student"
+        android:paddingLeft="120sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/btn_bg"
+        android:textSize="24sp"
+        android:textColor="#ffff"
+        android:text="Student">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/faculty"
+        android:layout_below="@+id/student"
+        android:paddingLeft="120sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/btn_bg"
+        android:textSize="24sp"
+        android:textColor="#ffff"
+        android:text="Faculty">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alumni"
+        android:layout_below="@+id/faculty"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20sp"
+        android:paddingLeft="120sp"
+        android:background="@drawable/btn_bg"
+        android:textSize="24sp"
+        android:textColor="#ffff"
+        android:text="Alumni">
+
+    </Button>
+
+
+
+</RelativeLayout>
